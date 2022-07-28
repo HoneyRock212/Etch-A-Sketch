@@ -69,6 +69,34 @@ header {
 .btn {
     height: 5vh;
     width: 35vh;
+    background-color: lightblue;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    border-style: groove;
+    opacity: 1;
+}
+
+.btn:active {
+    border: black 3px solid;
+}
+
+.eraserToggle {
+    background-color: grey;
+}
+
+.rainbowToggle {
+    background-color: grey;
+}
+
+.shadingToggle {
+    background-color: grey;
+}
+
+.gridToggle {
+    background-color: grey;
 }
 
 .grids {
